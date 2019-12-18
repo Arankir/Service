@@ -79,3 +79,5 @@ Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_Min
 Stop
 Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
 Stop
+Start C:/Users/Pavel/Desktop/All/Programm/Service/Service/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
