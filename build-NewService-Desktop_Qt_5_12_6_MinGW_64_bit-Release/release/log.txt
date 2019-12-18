@@ -1,0 +1,81 @@
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+MakeComand calc
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+MakeComand md c:\1234
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand md c:\1234
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand calc
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+MakeComand md c:\123454
+MakeComand md c:\12345
+MakeComand md c:\12345
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
+Start C:/Users/Pavel/Desktop/All/Programm/build-NewService-Desktop_Qt_5_12_6_MinGW_64_bit-Release/release Interval=1000
+Stop
