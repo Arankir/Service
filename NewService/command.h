@@ -7,6 +7,7 @@
 #include <QDir>
 #include <QStringList>
 #include <QTextStream>
+#include <QDateTime>
 
 class Command : public QObject
 {

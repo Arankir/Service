@@ -24,7 +24,8 @@ void MainWindow::start(){
     QFile log(QCoreApplication::applicationDirPath() + QDir::separator() + "log.txt");
     log.open(QFile::Append);
     QTextStream writeStream(&log);
-    writeStream <<"Start "<<app->applicationDirPath()<<" Interval="<<_timer.interval()<<"\n";
+    QDateTime time;
+    writeStream <<time.currentDateTime().toString("yyyy-MM-dd  HH:mm:ss")+" Start "<<app->applicationDirPath()<<" Interval="<<_timer.interval()<<"\n";
     log.close();
 
 }
@@ -32,20 +33,23 @@ void MainWindow::pause(){
     QFile log(QCoreApplication::applicationDirPath() + QDir::separator() + "log.txt");
     log.open(QFile::Append);
     QTextStream writeStream(&log);
-    writeStream <<"Pause"<<"\n";
+    QDateTime time;
+    writeStream <<time.currentDateTime().toString("yyyy-MM-dd  HH:mm:ss")+" Pause"<<"\n";
     log.close();
 }
 void MainWindow::resume(){
     QFile log(QCoreApplication::applicationDirPath() + QDir::separator() + "log.txt");
     log.open(QFile::Append);
     QTextStream writeStream(&log);
-    writeStream <<"Resume"<<"\n";
+    QDateTime time;
+    writeStream <<time.currentDateTime().toString("yyyy-MM-dd  HH:mm:ss")+" Resume"<<"\n";
     log.close();
 }
 void MainWindow::stop(){
     QFile log(QCoreApplication::applicationDirPath() + QDir::separator() + "log.txt");
     log.open(QFile::Append);
     QTextStream writeStream(&log);
-    writeStream <<"Stop"<<"\n";
+    QDateTime time;
+    writeStream <<time.currentDateTime().toString("yyyy-MM-dd  HH:mm:ss")+" Stop"<<"\n";
     log.close();
 }
