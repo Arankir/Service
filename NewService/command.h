@@ -14,7 +14,7 @@ class Command : public QObject
     Q_OBJECT
 public:
     explicit Command(QString path, QObject *parent = nullptr);
-    Command() {};
+    Command(QObject *parent = nullptr);
     void Set(QString path);
 signals:
 
@@ -22,7 +22,8 @@ public slots:
     void MakeComand();
 
 private:
-    QString _path;
+    QString path_;
+    QProcess *process_;
 };
 
 #endif // COMMAND_H

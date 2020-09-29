@@ -8,11 +8,12 @@
 #include <QDir>
 #include <QTimer>
 #include <QObject>
-#include <command.h>
+#include <QProcess>
+#include <QDateTime>
 
-class MainWindow : public QtService<QCoreApplication>
+class MainWindow : public QObject, public QtService<QCoreApplication>
 {
-
+    Q_OBJECT
 public:
     MainWindow(int argc, char **argv);
     ~MainWindow();
@@ -21,9 +22,15 @@ public:
     void resume();
     void stop();
 
-private:
-    QTimer _timer;
-    Command _command;
+    uint getSettingsInterval();
+    void setInterval(uint msec);
+    void updateInterval();
+    void onTimerTimeout();
+    void makeComand(QString command);
+    void appendLog(QString text);
 
+private:
+    QTimer timer_;
+    QProcess *process_;
 };
 #endif // MAINWINDOW_H

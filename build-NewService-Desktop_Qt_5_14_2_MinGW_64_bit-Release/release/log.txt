@@ -1,0 +1,11 @@
+2020-09-29  11:37:26 Service is started on C:/Users/RUSLANoffice/Desktop/All/Projects/Service/build-NewService-Desktop_Qt_5_14_2_MinGW_64_bit-Release/release
+2020-09-29  11:37:26 Interval = 10000
+2020-09-29  11:37:36 Make cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:37:36 Complete cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:37:46 Make cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:37:46 Complete cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:37:56 Make cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:37:56 Complete cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:38:06 Make cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:38:06 Complete cmd /C "md c:\1230&md c:\1231&md c:\1232&md c:\1233&md c:\1234&md c:\1235"
+2020-09-29  11:38:11 Service is stopped

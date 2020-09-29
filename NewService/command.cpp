@@ -1,15 +1,19 @@
 #include "command.h"
 
-Command::Command(QString path, QObject *parent) : QObject(parent){
-    _path=path;
+Command::Command(QString aPath, QObject *parent) : QObject(parent), path_(aPath) {
+
 }
 
-void Command::MakeComand(){
+Command::Command(QObject *parent) : QObject(parent), path_("") {
+
+}
+
+void Command::MakeComand() {
     QProcess console;
-    QFile commands(_path + "commands.txt");
+    QFile commands(path_ + "commands.txt");
     commands.open(QFile::ReadOnly);
     QDateTime time;
-    QFile log(_path + "log.txt");
+    QFile log(path_ + "log.txt");
     QStringList args;
     while(!commands.atEnd()){
         args << QString::fromLocal8Bit(commands.readLine()).remove("\r\n").remove("\n");
@@ -37,6 +41,6 @@ void Command::MakeComand(){
 
 }
 
-void Command::Set(QString path){
-    _path=path;
+void Command::Set(QString aPath) {
+    path_ = aPath;
 }
