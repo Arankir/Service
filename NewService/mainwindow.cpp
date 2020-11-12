@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 
-const QString c_logPath = "log.txt";
+//const QString c_logPath = "log.txt";
 const QString c_settingsPath = "settings.txt";
 const QString c_commandsPath = "commands.txt";
 
@@ -17,23 +17,27 @@ MainWindow::~MainWindow() {
 
 void MainWindow::start() {
     QCoreApplication *app = application();
-    appendLog("Service is started on " + app->applicationDirPath());
+    qInfo() << "Service is started on " << app->applicationDirPath();
+    //appendLog("Service is started on " + app->applicationDirPath());
 
     updateInterval();
     timer_.start();
 }
 
 void MainWindow::pause() {
-    appendLog("Service is paused");
+    qInfo() << "Service is paused";
+    //appendLog("Service is paused");
 }
 
 void MainWindow::resume() {
-    appendLog("Service is resumed");
+    qInfo() << "Service is resumed";
+    //appendLog("Service is resumed");
 }
 
 void MainWindow::stop() {
     timer_.stop();
-    appendLog("Service is stopped");
+    qInfo() << "Service is stopped";
+    //appendLog("Service is stopped");
 }
 
 uint MainWindow::getSettingsInterval() {
@@ -47,7 +51,8 @@ uint MainWindow::getSettingsInterval() {
 
 void MainWindow::setInterval(uint aMsec) {
     timer_.setInterval(aMsec);
-    appendLog("Interval = " + QString::number(timer_.interval()));
+    qInfo() << "Interval = " << QString::number(timer_.interval());
+    //appendLog("Interval = " + QString::number(timer_.interval()));
 }
 
 void MainWindow::updateInterval() {
@@ -74,19 +79,26 @@ void MainWindow::makeComand(QString aCommand) {
     if (QSysInfo::productType() == "windows") {
         strCommand = "cmd /C \"";
     }
-    strCommand += aCommand +"\"";
+    strCommand += aCommand + "\"";
 
     process_->startDetached(strCommand);
-    appendLog("Make " + strCommand);
+    qInfo() << "Make " << strCommand;
+    //appendLog("Make " + strCommand);
 
     bool isFinished = process_->waitForFinished(1000);
-    appendLog(isFinished ? "Error " + strCommand : "Complete " + strCommand);
+    if (isFinished) {
+        qInfo() << "Error " << strCommand;
+    } else {
+        qInfo() << "Complete " << strCommand;
+    }
+    //qInfo() << isFinished ? "Error " + strCommand : "Complete " + strCommand;
+    //appendLog(isFinished ? "Error " + strCommand : "Complete " + strCommand);
 }
 
 void MainWindow::appendLog(QString aText) {
-    QFile fileLog(QCoreApplication::applicationDirPath() + QDir::separator() + c_logPath);
-    fileLog.open(QFile::Append);
-    QTextStream writeStream(&fileLog);
-    writeStream << QDateTime::currentDateTime().toString("yyyy-MM-dd  HH:mm:ss") + " " + aText << "\n";
-    fileLog.close();
+//    QFile fileLog(QCoreApplication::applicationDirPath() + QDir::separator() + c_logPath);
+//    fileLog.open(QFile::Append);
+//    QTextStream writeStream(&fileLog);
+//    writeStream << QDateTime::currentDateTime().toString("yyyy-MM-dd  HH:mm:ss") + " " + aText << "\n";
+//    fileLog.close();
 }
